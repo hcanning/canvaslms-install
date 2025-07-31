@@ -1,7 +1,9 @@
 Ubuntu 22.04 LTS / 8 GB Memory / 160 GB Disk / NYC3 / DigitalOcean
 start at
 `root@ubuntu-s-4vcpu-8gb-nyc3-01:/`
+
 `sudo adduser sysadmin`
+
 `sudo usermod -aG sudo sysadmin`
 `sudo adduser canvasuser` (can try .. `sudo adduser --disabled-password --gecos canvas canvasuser`)
 `su sysadmin`
